@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  line-height: 1.6em;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 36px;
+  line-height: 1.4em;
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 1.5em;
+}
+
+h3 {
+  font-size: 19px;
+  line-height: 1.6em;
+}
+
+p, h1, h2, h3, ul {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: inherit;
+}
+
+ul, ol {
+  list-style: none;
+  padding: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td {
+  padding: 0;
+}
+
+input,
+textarea,
+button {
+  color: inherit;
+  font: inherit;
+  outline: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  background: transparent;
+  cursor: pointer;
+}
+
+
+
+@media screen and (min-width: 641px) {
+  body {
+    font-size: 18px;
+  }
+
+  h1 {    
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+}
