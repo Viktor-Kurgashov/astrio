@@ -45,6 +45,7 @@ export default {
 
   .product__image {
     align-self: stretch;
+    width: 100%;
   }
 
   .product__add-btn {

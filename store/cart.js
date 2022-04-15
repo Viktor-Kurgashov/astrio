@@ -32,9 +32,3 @@ export const mutations = {
     state.subtotal = state.items.reduce((sum, item) => Math.round((sum + item.total) * 100) / 100, 0);
   },
 };
-
-export const getters = {
-  getLength (state) {
-    return state.cartItems.length;
-  },
-};

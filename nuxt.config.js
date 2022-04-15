@@ -40,12 +40,6 @@ export default {
     preconnect: true
   },
 
-  target: 'static',
-
-  router: {
-    base: '/astrio/'
-  },
-
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
   ],
